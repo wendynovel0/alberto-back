@@ -34,7 +34,4 @@ export class BrandSupplierView {
 
   @ViewColumn()
   brand_name: string;
-
-  @ViewColumn()
-  brand_is_active: boolean;
 }

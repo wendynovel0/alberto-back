@@ -33,14 +33,8 @@ export class ProductView {
   brand_name: string;
 
   @ViewColumn()
-  brand_is_active: boolean;
-
-  @ViewColumn()
   supplier_id: number;
 
   @ViewColumn()
   supplier_name: string;
-
-  @ViewColumn()
-  supplier_is_active: boolean;
 }

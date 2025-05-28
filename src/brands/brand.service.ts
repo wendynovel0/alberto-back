@@ -217,7 +217,6 @@ async activate(id: number, performedBy: number, ip?: string): Promise<Brand> {
     updated_at: brand.updated_at,
     supplier_id: brand.supplier_id,
     supplier_name: brand.supplier_name,
-    supplier_is_active: brand.supplier_is_active,
   }));
 }
 }

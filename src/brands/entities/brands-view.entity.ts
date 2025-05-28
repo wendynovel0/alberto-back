@@ -25,7 +25,4 @@ export class BrandView {
 
   @ViewColumn()
   supplier_name: string;
-
-  @ViewColumn()
-  supplier_is_active: boolean;
 }
